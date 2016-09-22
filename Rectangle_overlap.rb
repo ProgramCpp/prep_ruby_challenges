@@ -126,6 +126,6 @@ end
 
 #test assumptions: first rectangle along x-axis first and first co-ordinate along axes first for each rectangle, both co-ordinates on diagonally opposite corners
 #test: overlap is true
-puts overlap?( [ [0,0],[3,3] ], [ [1,1],[4,5] ] )
+#puts overlap?( [ [0,0],[3,3] ], [ [1,1],[4,5] ] )
 #test: overlap is false
-puts overlap?( [ [0,0],[1,4] ], [ [1,1],[3,2] ] )
+#puts overlap?( [ [0,0],[1,4] ], [ [1,1],[3,2] ] )
